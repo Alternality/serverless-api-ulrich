@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app= express();
 
-const dbCloudUrl ='mongodb+srv://markmacalisangulrich:DuYZryZCTAH08uFV@ulrichdb.kroysnh.mongodb.net/apidb?retryWrites=true&w=majority';
+const dbCloudUrl ='mongodb+srv://markmacalisangulrich:DuYZryZCTAH08uFV@ulrichdb.kroysnh.mongodb.net/apidb';
 
 const dbLocalUrl = 'mongodb://localhost:27017/express-mongo-api';
 
