@@ -1,6 +1,6 @@
 const express = require('express');
 const serverless = require('serverless-http');
-const router = require('./routes/author'); // Change to recipeRoutes
+const router = require('./routes/recipeRoutes'); // Change to recipeRoutes
 const mongoose = require('mongoose');
 const cors = require('cors');
 
