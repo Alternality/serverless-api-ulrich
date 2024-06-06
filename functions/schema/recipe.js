@@ -11,7 +11,7 @@ const recipeSchema = new Schema({
         required: true,
     },
     ingredients: {
-        type: [String], // Array of strings to list ingredients
+        type: [String],
         required: true,
     },
     favorite: {
@@ -27,4 +27,4 @@ recipeSchema.pre('save', function (next) {
     next();
 });
 
-module.exports = mongoose.model('Recipe', recipeSchema);
+module.exports =recipeSchema;
