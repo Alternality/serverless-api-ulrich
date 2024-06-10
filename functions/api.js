@@ -1,6 +1,6 @@
 const express = require('express');
 const serverless = require('serverless-http');
-const router = require('./routes/recipeRoutes'); // Change to recipeRoutes
+const router = require('./routes/recipeRoutes');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
@@ -8,7 +8,7 @@ const app = express();
 
 const dbCloudUrl = 'mongodb+srv://markmacalisangulrich:DuYZryZCTAH08uFV@ulrichdb.kroysnh.mongodb.net/apidb';
 
-const dbLocalUrl = 'mongodb://localhost:27017/recipe-db'; // Change to your recipe database name
+const dbLocalUrl = 'mongodb://localhost:27017/recipe-db'; 
 
 app.use(cors());
 app.use(express.json());
